@@ -1,0 +1,1 @@
+package com.company;import java.util.Scanner;public class Main {    public static void main(String[] args) {        Scanner scanner = new Scanner(System.in);            int n = scanner.nextInt();            int p = scanner.nextInt();            int movedNum = n >> p;            int bit = movedNum & 1;        System.out.println(bit);    }}
